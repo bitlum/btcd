@@ -29,7 +29,7 @@ type GetBlockHeaderVerboseResult struct {
 // hex-encoded string.
 type GetBlockVerboseResult struct {
 	Hash          string        `json:"hash"`
-	Confirmations uint64        `json:"confirmations"`
+	Confirmations int64         `json:"confirmations"`
 	StrippedSize  int32         `json:"strippedsize"`
 	Size          int32         `json:"size"`
 	Weight        int32         `json:"weight"`
@@ -82,7 +82,7 @@ type GetAddedNodeInfoResult struct {
 type SoftForkDescription struct {
 	ID      string `json:"id"`
 	Version uint32 `json:"version"`
-	Reject  struct {
+	Reject struct {
 		Status bool `json:"status"`
 	} `json:"reject"`
 }
