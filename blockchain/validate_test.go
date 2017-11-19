@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitlum/btcd/chaincfg"
+	"github.com/bitlum/btcd/chaincfg/chainhash"
+	"github.com/bitlum/btcd/wire"
+	"github.com/bitlum/btcutil"
 )
 
 // TestSequenceLocksActive tests the SequenceLockActive function to ensure it

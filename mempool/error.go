@@ -5,8 +5,8 @@
 package mempool
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitlum/btcd/blockchain"
+	"github.com/bitlum/btcd/wire"
 )
 
 // RuleError identifies a rule violation.  It is used to indicate that

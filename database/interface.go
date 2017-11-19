@@ -8,8 +8,8 @@
 package database
 
 import (
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitlum/btcd/chaincfg/chainhash"
+	"github.com/bitlum/btcutil"
 )
 
 // Cursor represents a cursor over key/value pairs and nested buckets of a
